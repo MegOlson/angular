@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   template: `
   <div class="container">
     <h1>To Do List for {{month}}/{{day}}/{{year}}</h1>
+    <h2>What do you have to do today?</h2>
     <h3>{{currentFocus}}</h3>
     <ul>
        <li *ngFor="let currentTask of tasks">{{currentTask.description}}</li>
