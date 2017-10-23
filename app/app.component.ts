@@ -23,7 +23,9 @@ export class AppComponent {
     new Task('Finish weekend Angular homeworkd for Epicodus course.'),
     new Task('Begin brainstorming possible JavaScript group projects'),
     new Task('Add README file to last few Angular repos on GitHub'),
-    new Task('Party')
+    new Task('Buy Matcha at Uwajimaya'),
+    new Task('Watch Stranger Things Premiere'),
+    new Task('Watch Angular Tutorials')
   ];
 }
 
